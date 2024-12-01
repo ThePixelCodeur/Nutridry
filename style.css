@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root varibles */
+:root{
+    --clr-primary:#007D4F;
+    --clr-secondary:#7c7c7c;
+    --clr-light:#C4E3D7;
+    --clr-white:#fff;
+}
+
+/* size declaration */
+html{
+    font-size: 16px;
+}
+
+/* Nav bar Styling Starts Here */
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+.navbar{
+ display:flex;
+ align-items: center;
+ padding: 0.5rem 2rem;
+ background-color: #fff;
+ border-bottom: solid 1px rgb(218, 218, 218);
+}
+nav{
+flex: 1;
+text-align: center;
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;  
+}
+nav ul li{
+display: inline-block;
+margin-left: 3rem;
+}
+nav ul li:not(:nth-child(1)){
+    margin-left: 3rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:var(--clr-secondary);
+}
+a:hover{
+    color:var(--clr-primary);
+}
+h4{
+    color:var(--clr-primary);
+}
