@@ -11,28 +11,56 @@
     --clr-primary:#007D4F;
     --clr-secondary:#7c7c7c;
     --clr-light:#C4E3D7;
-    --clr-white:#fff;
+    --clr-white:#ebebeb;
 }
 
 /* size declaration */
 html{
     font-size: 16px;
+    font-family: poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+.whatsapp{
+    position: absolute;
+    right: 0;
+    top:40%;
+    padding: 2.5rem 0.3rem;
+    background-color: var(--clr-primary);
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    border-radius: 0 1rem 1rem 0;   
+    position: fixed;
+}
+.whatsapp h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--clr-white);
 }
 
 /* Nav bar Styling Starts Here */
+.header{
+    /* background: rgb(184,255,191);
+       background: linear-gradient(153deg, rgb(184, 255, 244) 0%, rgba(224,255,224,1) 49%, rgb(184, 255, 234) 99%); */
+       background-image: url("./images/hero_bg.webp");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size:cover;
+       width:100%;
+       height: 100vh;
+   }
 
 .container{
     max-width: 1300px;
     margin: auto;
-    padding: 0 1.5rem;
+    padding: 1rem ;
 }
 
 .navbar{
  display:flex;
  align-items: center;
- padding: 0.5rem 2rem;
- background-color: #fff;
- border-bottom: solid 1px rgb(218, 218, 218);
+ padding:0.5rem 2rem;
+ background-color:transparent;
+ border-bottom: solid 1px var(--clr-light);
 }
 nav{
 flex: 1;
@@ -52,11 +80,85 @@ nav ul li:not(:nth-child(1)){
 a{
     text-decoration: none;
     font-size: 1rem;
-    color:var(--clr-secondary);
+    color:var(--clr-light);
 }
 a:hover{
     color:var(--clr-primary);
 }
 h4{
     color:var(--clr-primary);
+    font-weight: 600;
+}
+
+/* hero section head and para */
+
+.hero-section{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 25rem;
+}
+.col-2 h6{
+    color: var(--clr-white);
+    letter-spacing: 0.5rem;
+}
+.col-2 h1{
+    font-size: 3.2rem;
+    color: var(--clr-primary);
+    font-weight: 600;
+}
+.col-2 p{
+     font-size: 0.9rem;
+     color: var(--clr-light);
+
+}
+/* product images in hero */
+.hero-products{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hero-product{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-right: 2.2rem;
+}
+.hero-product img{
+    width:6.3rem;
+   
+}
+.hero-product h3{
+    font-size: 1rem;
+    color: var(--clr-primary);
+    font-weight: 500;
+   
+}
+.hero-product p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/* hero right side image styling */
+.col-2 img{
+max-width: 100%;
+padding: 1rem 0;
+
+}
+
+/* why Section */
+.why-section{
+    max-width: 1300px;
+    margin: auto;
+    padding: 1.5rem;
+    background: #fff;
 }
