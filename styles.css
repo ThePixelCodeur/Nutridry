@@ -240,7 +240,7 @@ color: var(--clr-primary);
 }
 
 /* -----About Section Styling Starts----- */
-.about{
+.about-us{
     background-image: url(./images/nutri_bg.webp);
     background-repeat: no-repeat;
     background-position:center;
@@ -337,10 +337,10 @@ flex-wrap: wrap; */
     padding: 0.8rem 0;
 }
 /* product section starts--- */
-.products{
+.product{
     background-color: var(--clr-bg);
 }
-.products .container{
+.product .container{
     max-width: 125rem;
     margin: auto;
     padding: 5rem 2rem;
@@ -461,4 +461,175 @@ span{
     font-size: 1.8rem;
     padding: 1.5rem 0;
     font-weight: 500;
+}
+/* ---BLOGS---- */
+.blog{
+    margin: 5rem 0;
+}
+.blog .container{
+    max-width: 125rem;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+.blog-heading{
+    padding: 2rem 0;
+    width: 60%;
+}
+.blog-heading h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--clr-primary);
+}
+.blog-heading p{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--clr-secondary);
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+.blog-content .blog-1{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-1{
+    flex-basis: 32%;
+    min-width:30rem;
+}
+.blog-1:hover{
+    transition: all 0.4s ease-in-out;
+    background-color:#fff;
+    border-radius: 0.5rem;
+}
+.blog-1 img{
+    max-width:100% ;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.blogs-heading{
+    padding: 1rem 0rem 1rem 2rem ;
+    min-width: 100%;
+}
+.blog-1 p{
+    font-size: 1.4rem;
+    color: #2B2F34;
+    font-weight: 400;
+    padding:0.5rem 0 1.5rem 0;
+}
+.blog-1 h3{
+    font-size: 1.5rem;
+    color: #2B2F34;
+    font-weight: 600;
+   
+}
+.blog-1 h6{
+    font-size: 1.3rem;
+    color:var(--clr-secondary);
+    font-weight: 400;
+    padding: 0.6rem 0;
+}
+.blog-1 h5{
+    font-size: 1.3rem;
+    color: #2B2F34;
+    font-weight: 500;
+    padding: 1.5rem 0;
+}
+
+/* -----testimaonials---- */
+.testimonial{
+    background-image: url(./images/nutri_bg.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonial .container{
+    max-width: 125rem;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+.testimonial-heading{
+    padding: 2rem 0;
+    width: 60%;
+}
+.testimonial-heading h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--clr-primary);
+}
+.testimonial-heading p{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--clr-secondary);
+}
+
+/* -----footer------ */
+.footer{
+    background-color: var(--clr-primary);
+}
+.footer .container{
+    max-width: 125rem;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+.footer .col-4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content{
+    padding: 1.5rem 0;
+}
+.footer-content h4{
+    color: var(--clr-white);
+    font-size: 1.9rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.footer-content li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 0.4rem 0;
+}
+.footer-content li a{
+    text-decoration: none;
+    color:var(--clr-light);
+    transition: all 0.3s ease-in-out;
+}
+.footer-content li a:hover{
+    padding: 2px 0px 0px 3px;
+}
+.footer-content .address{
+    color: var(--clr-light);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+hr{
+    color: var(--clr-secondary);
+    font-size: 1px;
+}
+.designs-by{
+    padding: 0.3rem 0;
+}
+.designs-by h5{
+    color: var(--clr-light);
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.designed-by{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.designed-by a{
+    text-decoration: none;
+    color:var(--clr-light);
 }
