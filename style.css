@@ -246,11 +246,12 @@ color: var(--clr-primary);
     background-position:center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
-.about .container{
+.about-us .container{
     max-width: 125rem;
     margin: auto;
-    padding: 5rem 2rem;
+    padding: 7rem 2rem;
 }
 .about-heading{
     padding: 2rem 0;
@@ -272,9 +273,10 @@ color: var(--clr-primary);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 1rem 0;
+    align-items: center;
 }
-.about-image img{
+.about-row img{
     padding: 2rem 0;
     width: 40%;
     border-radius: 1rem;
@@ -464,6 +466,7 @@ span{
     padding: 1.5rem 0;
     font-weight: 500;
 }
+
 /* ---BLOGS---- */
 .blog{
     margin: 5rem 0;
@@ -488,7 +491,6 @@ span{
     font-weight: 400;
     color: var(--clr-secondary);
 }
-
 .blog-content{
     display: flex;
     flex-direction: row;
@@ -500,7 +502,6 @@ span{
     align-items: center;
     justify-content: space-between;
 }
-
 .blog-1{
     flex-basis: 32%;
     min-width:30rem;
@@ -571,7 +572,6 @@ span{
     font-weight: 400;
     color: var(--clr-secondary);
 }
-
 .testimaonial-content{
     display: flex;
     flex-direction: row;
@@ -596,7 +596,6 @@ span{
 }
 .persons{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
@@ -615,6 +614,7 @@ span{
     padding-top: 0.5rem ;
     font-weight: 500;
 }
+
 /* ----contact page---- */
 .contact{
     background-color: var(--clr-bg);
