@@ -264,6 +264,9 @@ color: var(--clr-primary);
     color: var(--clr-secondary);
     line-height: 2rem;  
 }
+.about-right-row{
+    max-width: 100%;
+}
 .about-right-row h1{
     font-size: 1.6rem;
     font-weight: 500;
@@ -278,7 +281,6 @@ color: var(--clr-primary);
     padding: 2rem 0;
 }
 .about-row .about-col{
-    justify-content: space-a;
     text-align: center;
     align-items: center;
     padding: 2rem;
