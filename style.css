@@ -110,7 +110,7 @@ color: var(--clr-primary);
 .col-2 .hero-content h1{
     font-size: 4rem;
     color: var(--clr-primary);
-    font-weight:900;
+    font-weight:700;
     padding: 1rem 0;
     text-transform: uppercase;
 }
@@ -776,5 +776,5 @@ hr{
     font-size: 1.5rem;
     font-weight: 600;
     color: #Ffffff;
-    
+
 }
