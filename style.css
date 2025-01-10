@@ -71,6 +71,7 @@ a{
 }
 a:hover{
     color: var(--clr-primary);
+    cursor:pointer;
 }
 p{
 color:var(--clr-secondary);
@@ -107,10 +108,11 @@ color: var(--clr-primary);
     font-weight: 500;
 }
 .col-2 .hero-content h1{
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--clr-primary);
-    font-weight: 600;
+    font-weight:900;
     padding: 1rem 0;
+    text-transform: uppercase;
 }
 .col-2 .hero-content p{
     font-size: 1.6rem;
@@ -126,12 +128,13 @@ color: var(--clr-primary);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    padding: 2rem 0;
 }
 .hero-product-images{
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .hero-product-images img{
     max-width: 8rem;
@@ -139,6 +142,7 @@ color: var(--clr-primary);
 .hero-product-images img:hover{
     scale:calc(1.2);
     transition: all 1s ease-in-out;
+    cursor:pointer;
 }
 .hero-product-images h3{
     font-size: 1.7rem;
@@ -184,17 +188,22 @@ color: var(--clr-primary);
     justify-content:space-around;
     padding: 4rem 0;
 }
-.col-4{
+.why-col-4{
     flex-basis: 25%;
     min-width: 15rem;
     text-align: center;
+    transition: 0.5s;
 }
-.col-4 i{
+.why-col-4:hover{
+    transform: translateY(-1rem);
+    cursor:pointer;
+}
+.why-col-4 i{
     font-size: 4rem;
     color: var(--clr-primary);
     padding: 1rem 0; 
 }
-.col-4 h3{
+.why-col-4 h3{
     font-size: 1.5rem;
     color: var(--clr-primary);
     font-weight: 500;
@@ -209,8 +218,7 @@ color: var(--clr-primary);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: auto;
-    
+    height: auto;  
 }
 .about-us .container{
     max-width: 120rem;
@@ -434,7 +442,7 @@ color: var(--clr-primary);
 }
 span{
     font-size: 1.3rem;
-    padding: 1.2rem 3rem;
+    padding: 1.2rem;
     font-weight: 500;
     background-color: #007D4F;
     color:var(--clr-bg);
@@ -442,7 +450,7 @@ span{
 .banner-content h3{
     color:var(--clr-bg);
     font-size: 1.8rem;
-    padding: 1.5rem 0;
+    padding: 1.2rem 0;
     font-weight: 500;
 }
 
@@ -489,11 +497,14 @@ span{
     padding: 1rem 0;
     flex-basis: 30%;
     min-width:30rem;
+    transition: 0.5s;
 }
 .col-3:hover{
     transition: all 0.4s ease-in-out;
     background-color:#fff;
     border-radius: 0.5rem;
+    transform: translateY(-1rem);
+    cursor:pointer;
 }
 .col-3 img{
     max-width:100% ;
@@ -511,7 +522,7 @@ span{
 }
 .col-3 h3{
     font-size: 1.5rem;
-    color: #2B2F34;
+    color: var(--clr-primary);
     font-weight: 600; 
 }
 .col-3 h6{
@@ -575,6 +586,11 @@ span{
     flex-basis: 30%;
     min-width:30rem;
     margin: 1rem 0;
+    transition: 0.5s;
+}
+.t-col-3:hover{
+    transform:translateY(-1rem);
+    cursor:pointer;
 }
 .t-col-3 i{
     font-size: 5rem;
@@ -686,6 +702,7 @@ span{
 .col-2 button:hover{
     color: var(--clr-primary);
     padding-left: 2rem;
+    cursor:pointer;
 }
 
 /* -----footer------ */
@@ -730,6 +747,7 @@ span{
 }
 .footer-content li a:hover{
     padding: 2px 0px 0px 3px;
+    cursor:pointer;
 }
 .footer-content .address{
     color: var(--clr-light);
@@ -754,7 +772,9 @@ hr{
     font-weight: 500;
     padding: 1rem 0;
 }
-.designed-by{
-    font-size: 2rem;
-    font-weight: 500;
+.designs-by b{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #Ffffff;
+    
 }
