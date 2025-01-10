@@ -807,7 +807,11 @@ hr{
         margin-right: 3rem;
     }
     nav a{
+        color:var(--clr-bg);
+    }
+    nav a:hover{
         color:var(--clr-white);
+        font-size: 2rem;
     }
     .menu{
         display: block;
