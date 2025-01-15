@@ -798,6 +798,7 @@ span{
 .footer-content li a:hover{
     padding: 2px 0px 0px 3px;
     cursor:pointer;
+    color:var(--clr-white);
 }
 .footer-content .address{
     color: var(--clr-light);
