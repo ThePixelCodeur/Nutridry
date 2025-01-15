@@ -107,7 +107,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 a{
     text-decoration: none;
@@ -145,6 +145,7 @@ color: var(--clr-primary);
 .col-2{
     flex-basis: 50%;
     min-width: 30rem;
+    gap:2rem;
 }
 .col-2 .hero-content h6{
     font-size: 1.2rem;
@@ -160,10 +161,11 @@ color: var(--clr-primary);
     text-transform: uppercase;
 }
 .col-2 .hero-content p{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color:var(--clr-light);
     font-weight: 400;
     line-height: 2.5rem;
+    text-align: justify;
 }
 .col-2 img{
     max-width: 100%;
@@ -201,9 +203,9 @@ color: var(--clr-primary);
     padding: 0.7rem;
 }
 .hero-product-images p{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--clr-light);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* -----why section styling starts here----- */
