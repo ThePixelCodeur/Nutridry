@@ -161,7 +161,7 @@ color: var(--clr-primary);
     text-transform: uppercase;
 }
 .col-2 .hero-content p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color:var(--clr-light);
     font-weight: 400;
     line-height: 2.5rem;
