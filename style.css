@@ -160,10 +160,10 @@ color: var(--clr-primary);
     text-transform: uppercase;
 }
 .col-2 .hero-content p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color:var(--clr-light);
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 .col-2 img{
     max-width: 100%;
@@ -201,7 +201,7 @@ color: var(--clr-primary);
     padding: 0.7rem;
 }
 .hero-product-images p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--clr-light);
     font-weight: 400;
 }
@@ -217,7 +217,7 @@ color: var(--clr-primary);
     padding: 7rem 2rem;
 }
 .why-heading{
-    max-width: 75%;
+    max-width: 85%;
 }
 .why-heading h2{
     font-size: 2.5rem;
@@ -276,7 +276,7 @@ color: var(--clr-primary);
     padding: 7rem 2rem;
 }
 .about-heading{
-    max-width: 75%;
+    max-width: 85%;
 }
 .about-heading h2{
     font-size: 3.5rem;
@@ -300,7 +300,7 @@ color: var(--clr-primary);
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--clr-secondary);
-    line-height: 2.2rem;
+    line-height: 2.5rem;
 }
 .col-2 .about-image{
     padding: 2rem 0;
@@ -320,7 +320,8 @@ color: var(--clr-primary);
     font-size: 1.4rem;
     font-weight: 400;
     color: var(--clr-secondary);
-    line-height: 2rem;  
+    line-height: 2.5rem;  
+    text-align: justify;
 }
 .about-right-row{
     max-width: 100%;
@@ -374,7 +375,7 @@ color: var(--clr-primary);
 }
 .product-heading{
     padding: 2rem 0;
-    max-width: 75%;
+    max-width: 85%;
 }
 .product-heading h2{
     font-size: 3.5rem;
@@ -398,7 +399,7 @@ color: var(--clr-primary);
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--clr-secondary);
-    line-height: 2.2rem;
+    line-height: 2.5rem;
 }
 .categories h3{
     font-size: 1.6rem;
@@ -423,7 +424,7 @@ color: var(--clr-primary);
     background-color: rgba(255, 255, 255, 0.3);
 }
 .col-5 img{
-    max-width:10rem;
+    max-width:18rem;
     padding-top:1rem;
 }
 .col-5 img:hover{
@@ -431,14 +432,16 @@ color: var(--clr-primary);
     transition: all 0.6s linear;
 }
 .col-5 h3{
+    padding-top: 0.5rem;
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--clr-primary);
 }
 .col-5 p{
     padding-top: 0.5rem;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 2rem;
     color: var(--clr-secondary);
 }
 
@@ -517,7 +520,7 @@ span{
 }
 .blog-heading{
     padding: 2rem 0;
-    max-width: 75%;
+    max-width: 85%;
 }
 .blog-heading h2{
     font-size: 3.5rem;
@@ -541,7 +544,7 @@ span{
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--clr-secondary);
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 .col-3{
     padding: 1rem 0;
@@ -571,15 +574,17 @@ span{
     padding:0.5rem 0 1.5rem 0;
 }
 .col-3 h3{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--clr-primary);
     font-weight: 600; 
 }
 .col-3 h6{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color:var(--clr-secondary);
     font-weight: 400;
     padding: 0.6rem 0;
+    text-align: justify;
+    line-height: 2rem;
 }
 .col-3 h5{
     font-size: 1.3rem;
@@ -605,7 +610,7 @@ span{
 }
 .testimonial-heading{
     padding: 2rem 0;
-    max-width: 75%;
+    max-width: 85%;
 }
 .testimonial-heading h2{
     font-size: 3.5rem;
@@ -629,10 +634,10 @@ span{
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--clr-secondary);
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 .t-col-3{
-    padding: 1rem 0;
+    padding: 0.6rem 0;
     flex-basis: 30%;
     min-width:30rem;
     margin: 1rem 0;
@@ -647,10 +652,11 @@ span{
     color:var(--clr-primary);
 }
 .t-col-3 p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--clr-secondary);
     font-weight: 400;
     padding: 1rem 0;
+    line-height: 2rem;
 }
 .persons{
     display: flex;
