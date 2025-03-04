@@ -447,6 +447,87 @@ color: var(--clr-primary);
     color: var(--clr-secondary);
 }
 
+/* ----technology page---- */
+.technology{
+    background-color: #fff;
+    width: 100%;
+    height: auto; 
+}
+.technology .container{
+    max-width: 120rem;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+.tech-heading{
+    padding: 1rem 0;  
+    max-width: 85%;
+}
+.tech-heading h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--clr-primary);
+    position: relative;
+}
+.tech-heading h2::after{
+    content: "";
+    background:rgb(250, 129, 8);
+    width: 7rem;
+    height: 0.4rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 7%;
+    transform: translateX(-50%);
+}
+.tech-heading p{
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--clr-secondary);
+    line-height: 2.5rem;
+}
+.tech-right-heading{
+    padding: 1rem 0;
+}
+.tech-right-heading h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--clr-primary);
+}
+.tech-right-heading p{
+    padding-top: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--clr-secondary);
+    line-height: 2.5rem;  
+    text-align: justify;
+}
+.tech-right-heading a{
+    padding-top: 4rem;
+    text-decoration: underline;
+    color:var(--clr-primary);
+}
+.tech-right-heading a:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+.col-2 button{
+    display: flex;
+    width: 5rem;
+    background: transparent;
+    border: none;
+    gap: 1.5rem;
+    font-size: 1.6rem;
+    color:var(--clr-secondary);
+    padding: 1.5rem 0;
+    transition: all 0.3s ease-in-out;
+}
+.col-2 button:hover{
+    color: var(--clr-primary);
+    padding-left: 2rem;
+    cursor:pointer;
+}
+
 /* ----banner section starts here---- */
 .banner{
     background-image: url("./images/banner-bg.webp");
