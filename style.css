@@ -490,8 +490,8 @@ color: var(--clr-primary);
     padding: 1rem 0;
 }
 .tech-right-heading h1{
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 600;
     color: var(--clr-primary);
 }
 .tech-right-heading p{
